@@ -61,7 +61,7 @@ function removeItemFromScreen(itemId) {
 
 async function buyOne(item) {
   if (item.quantity <= 0) {
-    return show('Item is not available now');
+    return show('Item is not available ');
   }
 
   const itemData = {
